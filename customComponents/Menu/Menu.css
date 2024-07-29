@@ -1,0 +1,203 @@
+.mainmenu {
+  background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box
+    border-box;
+  box-sizing: border-box;
+  height: 105px;
+  padding-top: 15px;
+}
+
+.mainmenu .style-1 {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+}
+
+.mainmenu .style-2 {
+  box-sizing: border-box;
+}
+
+.mainmenu .style-3 {
+  width: 8.33333%;
+  float: left;
+  height: auto;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+.mainmenu .style-4 {
+  display: table;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.mainmenu .style-5 {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.mainmenu .style-6 {
+  cursor: pointer;
+  color: rgb(51, 122, 183);
+  text-decoration: none solid rgb(51, 122, 183);
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.mainmenu .style-7 {
+  display: block;
+  max-width: 100%;
+  height: auto;
+
+  box-sizing: border-box;
+  border: 0px none rgb(51, 122, 183);
+}
+
+.mainmenu .style-8 {
+  width: 25%;
+  float: left;
+  height: auto;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.mainmenu .style-9 {
+  display: table;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.mainmenu .style-10 {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.mainmenu .style-11 {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  border: 0px none rgb(51, 51, 51);
+}
+
+.mainmenu .style-12 {
+  width: 25%;
+  float: left;
+  height: auto;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.mainmenu .style-13 {
+  display: table;
+  width: 100%;
+  height: x;
+  box-sizing: border-box;
+}
+
+.mainmenu .style-14 {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.mainmenu .style-15 {
+  display: inline;
+  max-width: 90%;
+  height: auto;
+  vertical-align: middle;
+  box-sizing: border-box;
+  border: 0px none rgb(51, 51, 51);
+}
+
+.mainmenu .style-16 {
+  width: 41.6667%;
+  float: left;
+  height: x;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.mainmenu .style-17 {
+  display: table;
+  width: 100%;
+  height: x;
+  box-sizing: border-box;
+}
+
+.mainmenu .style-18 {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  box-sizing: border-box;
+  border: 1px solid #3a3a3a;
+  height: 77px;
+  border-radius: 5px;
+  background-color: #bf976a;
+  font-size: 24px;
+  color: #fff;
+}
+
+.mainmenu .style-19 {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  border: 0px none rgb(51, 51, 51);
+}
+
+@media only screen and (max-width: 992px) {
+  .mainmenu .style-1 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .mainmenu .style-3 {
+    width: 30%;
+  }
+  .mainmenu .style-8 {
+    width: 70%;
+    padding: 0px;
+  }
+  .mainmenu .style-12 {
+    display: none;
+  }
+  .mainmenu .style-16 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .mainmenu {
+    margin-bottom: 0px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .mainmenu {
+    padding-top: 25px;
+  }
+}

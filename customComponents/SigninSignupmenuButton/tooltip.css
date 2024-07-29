@@ -1,0 +1,30 @@
+.tooltipC {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipC .tooltiptextC {
+  opacity: 0;
+  width: 220px;
+  height: auto;
+  background-color: #bf976a;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-size: 16px;
+  /* Position the tooltip */
+  position: absolute;
+  top: 30px;
+  left: -50px;
+  z-index: 10;
+  padding: 10px 10px;
+  line-height: 22px;
+  transition: 0.3s ease-out;
+  box-shadow: 1px 1px 5px rgba(100, 87, 87, 0.3);
+}
+
+.tooltipC:hover .tooltiptextC {
+  opacity: 1;
+  transition: 0.3s ease-out;
+}

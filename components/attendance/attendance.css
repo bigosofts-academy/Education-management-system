@@ -1,0 +1,45 @@
+.hifz_table {
+  width: 100%;
+  margin: 50px auto;
+}
+
+.hifz_table table tr:nth-child(odd) {
+  background-color: rgb(191, 222, 255);
+}
+
+.hifz_table table tr:nth-child(even) {
+  background-color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 600px) {
+  .hifz_table {
+    font-size: 10px;
+  }
+}
+
+.hifz_table .table_container {
+  width: 100%;
+  overflow-x: auto;
+  max-height: 600px; /* Adjust the height as needed */
+}
+.hifz_table table {
+  border: 1px solid #b3adad;
+  border-collapse: collapse;
+  padding: 5px;
+  width: 100%;
+}
+
+.hifz_table table th {
+  border: 1px solid #ffffff;
+  padding: 5px;
+  background: #3a3a3a;
+  color: #fff;
+}
+
+.hifz_table table td {
+  border: 1px solid #b3adad;
+  text-align: center;
+  padding: 5px;
+
+  color: #313030;
+}

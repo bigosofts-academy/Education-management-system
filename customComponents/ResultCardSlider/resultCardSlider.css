@@ -1,0 +1,17 @@
+.resultCardSlider .swiper {
+  width: 63%;
+  height: auto;
+}
+.resultCardSlider {
+  margin-top: 100px;
+
+  display: block;
+  background: url("/images/pattern.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.resultCardSlider2 {
+  background-color: rgba(0, 0, 0, 0.5);
+}

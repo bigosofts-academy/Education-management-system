@@ -1,0 +1,761 @@
+.Footer iframe {
+  width: 100%;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Footer {
+  /* background: #bfdfea; */
+  background: #fff;
+
+  color: rgb(237, 237, 237);
+  padding: 50px 0px 30px;
+  margin: 0px;
+  box-sizing: border-box;
+  display: block;
+  box-shadow: 0 -10px 24px -16px rgba(0, 0, 0, 0.5),
+    0 10px 24px -16px rgba(0, 0, 0, 0.5);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.Footer .style-1 {
+  max-width: 1200px;
+  margin: 0px 381.5px;
+  padding: 0px 15px;
+  box-sizing: border-box;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.Footer .style-2 {
+  margin: 0px -15px;
+  padding: 0px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.Footer .style-3 {
+  -webkit-box-flex: 0;
+  flex: 0 0 33.3333%;
+  max-width: 33.3333%;
+  margin: 0px;
+  padding: 0px 15px;
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.Footer .style-4 {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.Footer .style-5 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin: 0px 0px 20px;
+  padding: 0px;
+  box-sizing: border-box;
+  line-height: 22.8px;
+  color: #013030;
+  margin-top: 0px;
+}
+
+.Footer .style-6 {
+  line-height: 21px;
+  margin: 0px 0px 16px;
+  padding: 0px;
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-bottom: 16px;
+  color: #013030;
+  text-align: justify;
+}
+
+.Footer .style-7 {
+  -webkit-box-flex: 0;
+  flex: 0 0 16.6667%;
+  max-width: 16.6667%;
+  margin: 0px;
+  padding: 0px 15px;
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.Footer .style-8 {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.Footer .style-9 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin: 0px 0px 20px;
+  padding: 0px;
+  box-sizing: border-box;
+  line-height: 25.2px;
+  color: #013030;
+  margin-top: 0px;
+}
+
+.Footer .style-10 {
+  list-style: outside none none;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #013030 !important;
+}
+
+.Footer .style-11 {
+  margin-bottom: 2px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.Footer .style-12 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none solid rgb(255, 255, 255);
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.Footer .style-13 {
+  margin-bottom: 2px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.Footer .style-14 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none solid rgb(255, 255, 255);
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.Footer .style-15 {
+  margin-bottom: 2px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.Footer .style-16 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none solid rgb(255, 255, 255);
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.Footer .style-17 {
+  margin-bottom: 2px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.Footer .style-18 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none solid rgb(255, 255, 255);
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.Footer .style-19 {
+  margin-bottom: 2px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.Footer .style-20 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none solid rgb(255, 255, 255);
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.Footer .style-21 {
+  margin-bottom: 2px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.Footer .style-22 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none solid rgb(255, 255, 255);
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.Footer .style-23 {
+  margin-bottom: 2px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.Footer .style-24 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none solid rgb(255, 255, 255);
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.Footer .style-25 {
+  margin-bottom: 2px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.Footer .style-26 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none solid rgb(255, 255, 255);
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.Footer .style-27 {
+  margin-bottom: 2px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.Footer .style-28 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none solid rgb(255, 255, 255);
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.Footer .style-29 {
+  -webkit-box-flex: 0;
+  flex: 0 0 25%;
+  max-width: 25%;
+  margin: 0px;
+  padding: 0px 15px;
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.Footer .style-30 {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.Footer .style-31 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin: 0px 0px 20px;
+  padding: 0px;
+  box-sizing: border-box;
+  line-height: 25.2px;
+  color: #013030;
+  margin-top: 0px;
+}
+
+.Footer .style-32 {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.Footer .style-33 {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  border-collapse: collapse;
+  color: #013030;
+}
+
+.Footer .style-34 {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.Footer .style-35 {
+  border: 0px none rgb(237, 237, 237);
+  padding-bottom: 20px;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px 0px 20px;
+  box-sizing: border-box;
+}
+
+.Footer .style-36 {
+  font-size: 16px;
+  border: 0px none rgb(237, 237, 237);
+  padding-right: 10px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.Footer .style-37 {
+  font-weight: 900;
+  font-family: "Font Awesome 6 Free";
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 16px;
+  text-rendering: auto;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.Footer .style-38 {
+  font-size: 16px;
+  border: 0px none rgb(237, 237, 237);
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.Footer .style-39 {
+  border: 0px none rgb(237, 237, 237);
+  padding-bottom: 20px;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px 0px 20px;
+  box-sizing: border-box;
+}
+
+.Footer .style-40 {
+  font-size: 21px;
+  border: 0px none rgb(237, 237, 237);
+  padding-right: 10px;
+  margin: 0px;
+  padding: 0px 10px 0px 0px;
+  box-sizing: border-box;
+}
+
+.Footer .style-41 {
+  font-weight: 900;
+  font-family: "Font Awesome 6 Free";
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 21px;
+  text-rendering: auto;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.Footer .style-42 {
+  font-size: 16px;
+  border: 0px none rgb(237, 237, 237);
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.Footer .style-43 {
+  border: 0px none rgb(237, 237, 237);
+  padding-bottom: 20px;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px 0px 20px;
+  box-sizing: border-box;
+}
+
+.Footer .style-44 {
+  font-size: 21px;
+  border: 0px none rgb(237, 237, 237);
+  padding-right: 10px;
+  margin: 0px;
+  padding: 0px 10px 0px 0px;
+  box-sizing: border-box;
+}
+
+.Footer .style-45 {
+  font-weight: 900;
+  font-family: "Font Awesome 6 Free";
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 21px;
+  text-rendering: auto;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.Footer .style-46 {
+  font-size: 16px;
+  border: 0px none rgb(237, 237, 237);
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.Footer .style-47 {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: #013030;
+}
+
+.Footer .style-48 {
+  font-weight: 400;
+  margin: 0px 0px 8px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 20px;
+  margin-bottom: 8px;
+  font-family: "Hind Siliguri", sans-serif;
+  line-height: 24px;
+  margin-top: 0px;
+}
+
+.Footer .style-49 {
+  display: flex;
+  margin-left: 0px;
+  margin: 0px;
+  list-style: outside none none;
+  padding: 0px;
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.Footer .style-50 {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.Footer .style-51 {
+  text-decoration: none solid rgb(255, 255, 255);
+  border: 1px solid #013030;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  border-radius: 50%;
+  font-size: 12px;
+  text-align: center;
+  display: inline-block;
+  margin: 0px 3px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.Footer .style-53 {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.Footer .style-54 {
+  text-decoration: none solid rgb(255, 255, 255);
+  border: 1px solid #013030;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  border-radius: 50%;
+  font-size: 12px;
+  text-align: center;
+  display: inline-block;
+  margin: 0px 3px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.Footer .style-56 {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.Footer .style-57 {
+  text-decoration: none solid rgb(255, 255, 255);
+  border: 1px solid #013030;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  border-radius: 50%;
+  font-size: 12px;
+  text-align: center;
+  display: inline-block;
+  margin: 0px 3px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.Footer .style-59 {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.Footer .style-60 {
+  text-decoration: none solid rgb(255, 255, 255);
+  border: 1px solid #013030;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  border-radius: 50%;
+  font-size: 12px;
+  text-align: center;
+  display: inline-block;
+  margin: 0px 3px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.Footer .style-68 {
+  -webkit-box-flex: 0;
+  flex: 0 0 25%;
+  max-width: 25%;
+  margin: 0px;
+  padding: 0px 15px;
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.Footer .style-69 {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  height: 250px !important;
+}
+
+.Footer .style-70 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin: 0px 0px 20px;
+  padding: 0px;
+  box-sizing: border-box;
+  line-height: 25.2px;
+  color: #013030;
+  margin-top: 0px;
+}
+
+.Footer .style-71 {
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  border: 1px solid rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box
+    border-box;
+  border-radius: 3px;
+  margin: 0px 0px 5px;
+  box-sizing: border-box;
+  overflow: visible;
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 15px;
+  line-height: 22.5px;
+}
+
+.Footer .style-72 {
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  border: 1px solid rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box
+    border-box;
+  border-radius: 3px;
+  margin: 0px 0px 5px;
+  box-sizing: border-box;
+  overflow: visible;
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 15px;
+  line-height: 22.5px;
+}
+
+.Footer .style-73 {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box
+    border-box;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 3px;
+  width: 100%;
+  padding: 3px 10px;
+  margin: 0px;
+  box-sizing: border-box;
+  overflow: auto;
+  resize: vertical;
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 15px;
+  line-height: 22.5px;
+}
+
+.Footer .style-74 {
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(-180deg, rgb(242, 242, 242) 0%, rgb(214, 140, 69) 20%)
+    repeat scroll 0% 0% / auto padding-box border-box;
+  border: 0px none rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin: 0px 0px 5px;
+  box-sizing: border-box;
+  appearance: button;
+  overflow: visible;
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 15px;
+  line-height: 22.5px;
+}
+
+.Footer .style-75 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.Footer .style-76 {
+  font-size: 14px;
+  margin-bottom: 0px;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  margin-top: 0px;
+  color: #013030;
+}
+
+.Footer .style-77 {
+  font-weight: 400;
+  font-family: "Font Awesome 6 Free";
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 14px;
+  text-rendering: auto;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 540px) {
+  .Footer .style-1 {
+    width: 90%;
+  }
+  .Footer .style-2 {
+    flex-direction: column;
+  }
+  .Footer .style-3 {
+    flex: 100%;
+    max-width: unset;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .Footer .style-7 {
+    flex: 100%;
+    max-width: unset;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .Footer .style-29 {
+    flex: 100%;
+    max-width: unset;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .Footer .style-68 {
+    flex: 100%;
+    max-width: unset;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .Footer .style-6 {
+    text-align: justify !important;
+  }
+}
+
+.whatsapp {
+  animation: blink 1.5s infinite;
+  animation-fill-mode: both;
+}
+
+@keyframes blink {
+  0% {
+    scale: 90%;
+  }
+  50% {
+    scale: 115%;
+  }
+  100% {
+    scale: 90%;
+  }
+}

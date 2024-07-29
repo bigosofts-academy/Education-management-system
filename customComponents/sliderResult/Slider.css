@@ -1,0 +1,76 @@
+#app {
+  height: 100%;
+}
+
+.swiper {
+  width: auto;
+  height: auto;
+}
+.resultSliderContainer .swiper-wrapper {
+  margin-bottom: 50px;
+}
+.resultSliderContainer {
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.resultCardSlider .swiper-slide {
+  height: 350px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-button-prev {
+  color: white;
+  font-weight: 900;
+}
+.swiper-button-next {
+  color: white;
+  font-weight: 900;
+}
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+}
+
+.resultHeader {
+  font-family: "PT Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 43.2px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+@media only screen and (max-width: 600px) {
+  .swiper-pagination-bullet {
+    display: none;
+  }
+  .resultHeader {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .resultSliderContainer {
+    padding-bottom: 20px;
+  }
+  .resultCardSlider .swiper-slide {
+    height: 200px;
+  }
+  .swiper-wrapper {
+    margin-bottom: unset;
+  }
+}

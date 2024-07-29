@@ -1,0 +1,161 @@
+.alemalemagrid {
+  width: 1200px;
+  padding: 100px 0px 0px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+@media only screen and (max-width: 600px) {
+  .alemalemagrid {
+    width: 90%;
+  }
+}
+
+.alemalemagrid .style-6 {
+  -webkit-box-flex: 0;
+  flex: 0 0 25%;
+  max-width: 25%;
+  margin: 0px;
+  padding: 0px 15px;
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.alemalemagrid .style-7 {
+  margin-bottom: 80px;
+  text-align: center;
+  background: #8e602f;
+  padding: 20px 15px;
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 5px 0px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
+.alemalemagrid .style-7:hover {
+  scale: 105%;
+}
+
+.alemalemagrid .style-8 {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  margin-top: -80px;
+}
+
+.alemalemagrid .style-9 {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 3px solid rgb(0, 166, 118);
+  margin-bottom: 5px;
+  margin: 10px auto;
+  padding: 0px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  border-style: solid;
+  background-color: #fff;
+}
+
+.alemalemagrid .style-10 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 198px;
+  overflow-y: scroll;
+  transition: 0.5s ease-out !important;
+}
+.alemalemagrid .style-10::-webkit-scrollbar {
+  display: none;
+}
+.alemalemagrid .style-10 {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.alemalemagrid .style-10:hover {
+  transition: 0.5s ease-out !important;
+  height: auto;
+}
+
+.alemalemagrid .style-11 {
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin: 0px 0px 10px;
+  padding: 0px;
+  box-sizing: border-box;
+  margin-top: 0px;
+  color: #fff;
+}
+
+.alemalemagrid .style-12 {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin: 0px 0px 10px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Hind Siliguri", sans-serif;
+  line-height: 18px;
+  color: #fff;
+  margin-top: 0px;
+}
+
+.alemalemagrid .style-13 {
+  font-weight: 400;
+  font-size: 13px;
+  margin-bottom: 15px;
+  margin: 0px 0px 15px;
+  padding: 0px;
+  box-sizing: border-box;
+  margin-top: 0px;
+  color: #fff;
+}
+
+.style-14h1 {
+  font-family: "PT Sans", sans-serif;
+
+  font-weight: 700;
+
+  text-transform: capitalize;
+
+  padding: 40px 0px 0px 0px;
+  box-sizing: border-box;
+
+  line-height: 56px;
+  font-size: 44px;
+  margin-bottom: 0px;
+  color: rgb(17, 24, 39);
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 50px;
+}
+@media only screen and (max-width: 600px) {
+  .alemalemagrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+    gap: 10px;
+    padding: 20px 0px 0px 0px;
+  }
+  .alemalemagrid .style-6 {
+    max-width: 100vw;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .style-14h1 {
+    width: 90%;
+    margin: auto;
+    font-size: 16px !important;
+    padding: 10px 0px 0px 0px !important;
+    line-height: 32px;
+  }
+  .alemalemagrid .style-7 {
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+}

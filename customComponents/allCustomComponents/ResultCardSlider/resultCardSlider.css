@@ -1,0 +1,25 @@
+.resultCardSlider .swiper {
+  width: 63%;
+  height: auto;
+}
+.resultCardSlider {
+  display: block;
+  background: url("/images/pattern.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.resultCardSlider2 {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 100px 0px 0px 0px !important;
+}
+@media only screen and (max-width: 600px) {
+  .resultCardSlider .swiper {
+    width: 90%;
+    height: auto;
+  }
+  .resultCardSlider2 {
+    padding: 20px 0px 0px 0px !important;
+  }
+}

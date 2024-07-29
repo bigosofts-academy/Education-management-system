@@ -1,0 +1,152 @@
+.galleryALL .galleryALLh {
+  line-height: 56px;
+  font-size: 44px;
+  margin-bottom: 16px;
+  color: rgb(17, 24, 39);
+  font-weight: 600;
+}
+.galleryALL {
+  box-sizing: border-box;
+
+  font-family: "Poppins", sans-serif;
+
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: auto;
+  padding: 100px 0px 0px 0px;
+}
+
+.galleryALL a,
+a:visited {
+  text-decoration: none;
+}
+
+.galleryALL h1 {
+  font-size: 1rem;
+  color: cornflowerblue;
+  text-align: center;
+}
+
+.galleryALL .gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+  max-width: 1280px;
+  margin: auto;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .galleryALL .gallery {
+    width: 90%;
+  }
+}
+
+.galleryALL .gallery a {
+  cursor: zoom-in;
+  transition: filter 0.2s ease-in-out;
+}
+
+.galleryALL .gallery > div:nth-child(odd) {
+  aspect-ratio: 1;
+}
+
+.galleryALL .gallery > div:nth-child(odd) img {
+  width: 0px;
+  height: 0px;
+  display: block;
+  object-fit: cover;
+  min-height: 100%;
+  min-width: 100%;
+  border-radius: 5px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 10px 0px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 10px 0px;
+  transition: all 0.3s ease;
+}
+
+.galleryALL .gallery > div:nth-child(odd) img:hover {
+  transform: scale(1.06);
+}
+
+.galleryALL .lightbox {
+  background: rgba(0, 0, 0, 0.9);
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  overflow-y: hidden;
+}
+
+.galleryALL .lightbox:target {
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  overflow-y: scroll;
+}
+
+.galleryALL .lightbox img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  cursor: zoom-out;
+}
+
+.galleryALL .lightbox .close {
+  color: #fff;
+  font-size: 2em;
+  font-weight: bold;
+  height: 1em;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 1em;
+  z-index: 1001;
+  transition: all 0.3s ease;
+}
+
+/* Style lightbox caption  */
+.galleryALL .lightbox p {
+  font-size: 0.9em;
+  font-weight: normal;
+  text-align: left;
+  color: white;
+  border-top: 3px solid white;
+  padding-top: 10px;
+}
+
+/* Lightbox image div  */
+.galleryALL .lightbox > div {
+  width: auto;
+  padding: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .galleryALL {
+    padding: 10px 0px;
+  }
+  .galleryALL .galleryALLh {
+    line-height: 22px;
+    font-size: 16px;
+  }
+  .galleryALL .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    align-items: stretch;
+    max-width: 1280px;
+    margin: auto;
+    padding: 10px;
+  }
+  .galleryGridTemplate {
+    margin-bottom: 80px;
+  }
+  .galleryALL .gallery > div:nth-child(odd) img {
+    height: 100px;
+  }
+  .galleryALL .gallery > div:nth-child(odd) {
+    aspect-ratio: unset;
+  }
+}
