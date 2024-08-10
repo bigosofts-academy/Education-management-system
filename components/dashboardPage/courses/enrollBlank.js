@@ -1,5 +1,4 @@
 function EnrollButtonb({ code }) {
-  
   const hardRefresh = () => {
     if (typeof window !== "undefined") {
       if (code == "hifjulquran") {
@@ -8,9 +7,9 @@ function EnrollButtonb({ code }) {
         window.location.href = `/content/signup?code=alemalema`;
       } else if (code == "urdu") {
         window.location.href = `/content/signup?code=alemalema`;
-      }else if (code == "farzeayinclass") {
+      } else if (code == "farzeayinclass") {
         window.location.href = `/content/signup?code=prealemalema`;
-      }else if (code == "abacus_teacher") {
+      } else if (code == "abacus_teacher") {
         window.location.href = `/content/signup?abacus=true`;
       } else {
         window.location.href = `/content/signup?code=${code}`;
@@ -26,7 +25,7 @@ function EnrollButtonb({ code }) {
   return (
     <>
       <a href="" onClick={enrollFunction} className="style-16">
-        রেজিস্ট্রেশন
+        Registration
       </a>{" "}
     </>
   );

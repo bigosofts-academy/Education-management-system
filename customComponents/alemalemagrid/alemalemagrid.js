@@ -39,9 +39,7 @@ async function AlemAlemaGrid({ number }) {
   return (
     <div style={{ backgroundColor: "#EAEAEA" }}>
       <h2 className="style-14h1">
-        {true
-          ? "যারা ইন্টারনেট মাদ্রাসা থেকে দাওরায়ে হাদীস শেষ করেছেন"
-          : "Who Become Alema/Alema from Internet Madrasa"}
+        Who Become Alema/Alema from Internet Madrasa
       </h2>
       <div className="alemalemagrid">
         {data.hifz_result[0].widgetPayload.slice(0, number).map((item, i) => (
@@ -60,31 +58,32 @@ async function AlemAlemaGrid({ number }) {
                 <p className="style-11">{item.designation.bn}</p>
                 <h4 className="style-12">{item.name.bn}</h4>
                 <p className="style-13">
-                  {true ? "পিতার নামঃ" : "Fathers's name:"} {item.fatherName.bn}
+                  {false ? "পিতার নামঃ" : "Fathers's name:"}{" "}
+                  {item.fatherName.bn}
                 </p>
                 <p className="style-13">
                   {true ? "SID: " : "SID: "}
                   {item.sid}
                 </p>
                 <p className="style-13">
-                  {true ? "মাতার নামঃ" : "Mother's name:"} {item.motherName.bn}
+                  {false ? "মাতার নামঃ" : "Mother's name:"} {item.motherName.bn}
                 </p>
                 <p className="style-13">
-                  {true ? "বয়সঃ" : "Age:"} {item.age.bn}
+                  {false ? "বয়সঃ" : "Age:"} {item.age.bn}
                 </p>
                 <p className="style-13">
-                  {true ? "ঠিকানাঃ" : "Address:"} {item.country.bn}
+                  {false ? "ঠিকানাঃ" : "Address:"} {item.country.bn}
                 </p>
                 <p className="style-13">
-                  {true ? "পাশের সন" : "Year:"} {item.year.bn}
+                  {false ? "পাশের সন" : "Year:"} {item.year.bn}
                 </p>
                 <p className="style-13">
-                  {true ? "পেশাঃ" : "Profession:"} {item.profession.bn}
+                  {false ? "পেশাঃ" : "Profession:"} {item.profession.bn}
                 </p>
 
                 {item.comment ? (
                   <p className="style-13">
-                    {true ? "অনুভূতিঃ " : "Comment:"} {item.comment}
+                    {false ? "অনুভূতিঃ " : "Comment:"} {item.comment}
                   </p>
                 ) : (
                   ""

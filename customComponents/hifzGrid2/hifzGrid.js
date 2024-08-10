@@ -36,7 +36,7 @@ async function HifzGrid() {
   return (
     <>
       <h2 className="style-14h1">
-        {true
+        {false
           ? "যারা ইন্টারনেট মাদ্রাসা থেকে হিফজ সম্পন্ন করেছেন"
           : "Who Completed Their Hifz by Internet Madrasa"}
       </h2>
@@ -57,29 +57,29 @@ async function HifzGrid() {
                 <p className="style-11">{item.designation.bn}</p>
                 <h4 className="style-12">{item.name.bn}</h4>
                 <p className="style-13">
-                  {true ? "পিতার নামঃ" : "Fathers's name:"} {item.fatherName.bn}
+                  {false ? "পিতার নামঃ" : "Fathers's name:"} {item.fatherName.bn}
                 </p>
                 <p className="style-13">
-                  {true ? "মাতার নামঃ" : "Mother's name:"} {item.motherName.bn}
+                  {false ? "মাতার নামঃ" : "Mother's name:"} {item.motherName.bn}
                 </p>
                 <p className="style-13">
-                  {true ? "ঠিকানাঃ" : "Address:"} {item.country.bn}
+                  {false ? "ঠিকানাঃ" : "Address:"} {item.country.bn}
                 </p>
                 <p className="style-13">
-                  {true ? "পাশের সন" : "Year:"} {item.year.bn}
+                  {false ? "পাশের সন" : "Year:"} {item.year.bn}
                 </p>
                 <p className="style-13">
-                  {true ? "পেশাঃ" : "Profession:"} {item.profession.bn}
+                  {false ? "পেশাঃ" : "Profession:"} {item.profession.bn}
                 </p>
                 <p className="style-13">
-                  {true
+                  {false
                     ? "হিফজের সময়সীমাঃ"
                     : "How long it takes to complete hifz:"}{" "}
                   {item.time.bn}
                 </p>
                 {item.comment ? (
                   <p className="style-13">
-                    {true ? "অনুভূতিঃ " : "Comment:"} {item.comment}
+                    {false ? "অনুভূতিঃ " : "Comment:"} {item.comment}
                   </p>
                 ) : (
                   ""

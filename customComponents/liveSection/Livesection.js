@@ -111,7 +111,7 @@ async function LiveSection() {
         </div>
       </div>
       <div className="style-46">
-        <h2 className="style-47">খতমে বুখারী ও ইলমী ইজতেমা</h2>
+        <h2 className="style-47">The Union of the Students</h2>
         <div className="style-48">After</div>
         <div className="style-49">
           <div className="style-50">

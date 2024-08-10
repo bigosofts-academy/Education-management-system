@@ -12,7 +12,7 @@ function GalleryAll({ linkObj }) {
           marginBottom: "10px",
         }}
       >
-        {true
+        {false
           ? "আমাদের মাদ্রাসার তলেব/তলেবাদের কার্যক্রমসমূহ"
           : "Some Handwork of Our Madrasa Talib/Taliba"}
       </h1>

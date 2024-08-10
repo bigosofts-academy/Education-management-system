@@ -25,7 +25,7 @@ async function ReviewPage() {
       <div className="style-1">
         <div className="style-2">
           <h2 className="style-3">
-            {true
+            {false
               ? "কেন আমরাই শিক্ষার্থী ও অভিভাবকগণের প্রথম পছন্দ?"
               : "Why we are the first choice of students and parents?"}
           </h2>

@@ -162,7 +162,7 @@ function EnrollButton({ courseCode, setProfileUpdate }) {
   return (
     <>
       <Link href="#" onClick={enrollFunction} className="style-16">
-        রেজিস্ট্রেশন
+        Registration
       </Link>{" "}
     </>
   );

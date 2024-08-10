@@ -39,7 +39,7 @@ async function AllCoursePage() {
         <div className="style-1">
           <section className="style-2">
             <h2 className="style-3">
-              {true ? "আমাদের একাডেমিক ক্ল্যাস সমূহ" : ""}
+              {false ? "আমাদের একাডেমিক ক্ল্যাস সমূহ" : "Our Acadenic Classes"}
             </h2>
           </section>
           <div className="style-4">
@@ -82,7 +82,7 @@ async function AllCoursePage() {
                         href={`/content/classes/${item.courseCode}`}
                         className="style-17"
                       >
-                        বিস্তারিত দেখুন
+                        Details
                       </Link>{" "}
                     </div>
                   </div>

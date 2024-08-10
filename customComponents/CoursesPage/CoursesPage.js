@@ -37,7 +37,7 @@ async function CoursePage() {
         <div className="style-1">
           <section className="style-2">
             <h2 className="style-3">
-              {true ? "আমাদের একাডেমিক ক্লাস সমূহ" : "Our Courses"}
+              {false ? "আমাদের একাডেমিক ক্লাস সমূহ" : "Our Courses"}
             </h2>
           </section>
           <div className="style-4">

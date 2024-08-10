@@ -23,7 +23,7 @@ function SliderResult(props) {
   return (
     <div className="resultSliderContainer">
       <h1 className="resultHeader">
-        {true
+        {false
           ? "ইন্টারনেট মাদ্রাসার তলেব/তলেবাদের বেফাক বোর্ড রেজাল্ট"
           : "Befaq Board Results of our Students"}
       </h1>
